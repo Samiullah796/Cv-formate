@@ -1,0 +1,34 @@
+body{
+    fonr-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.header {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.profile img {
+width: 150px;
+height: 150px;
+border-radius: 50%;
+margin-right: 20px;
+}
+.info{
+    text-align: left;
+}
+.info h2{
+    margin: 0;
+}
